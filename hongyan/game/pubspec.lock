@@ -2,7 +2,7 @@
 # See https://dart.dev/tools/pub/glossary#lockfile
 packages:
   a_star_algorithm:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: a_star_algorithm
       sha256: a40f853fb1ec328b8bb3069a5e697b9fc6d5106c109d5feee3028c2ed9b985ab
@@ -65,8 +65,24 @@ packages:
       url: "https://mirrors.tencent.com/dart-pub/"
     source: hosted
     version: "1.3.1"
-  flame:
+  fast_noise:
     dependency: "direct main"
+    description:
+      name: fast_noise
+      sha256: "271031cebf1602fc064472970e658fa7ff2f3b55a979bb430337b715bd55690b"
+      url: "https://mirrors.tencent.com/dart-pub/"
+    source: hosted
+    version: "1.0.1"
+  fixnum:
+    dependency: transitive
+    description:
+      name: fixnum
+      sha256: "04be3e934c52e082558cc9ee21f42f5c1cd7a1262f4c63cd0357c08d5bba81ec"
+      url: "https://mirrors.tencent.com/dart-pub/"
+    source: hosted
+    version: "1.0.1"
+  flame:
+    dependency: transitive
     description:
       name: flame
       sha256: c38e1be5827aa839c166c6ed08a2733bb4523bf153d8c670739c20c842fa1844
@@ -91,14 +107,21 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  http:
+  hongyan:
     dependency: "direct main"
     description:
+      path: ".."
+      relative: true
+    source: path
+    version: "1.0.0+1"
+  http:
+    dependency: transitive
+    description:
       name: http
-      sha256: "6aa2946395183537c8b880962d935877325d6a09a2867c3970c05c0fed6ac482"
+      sha256: "5895291c13fa8a3bd82e76d5627f69e0d85ca6a30dcac95c4ea19a5d555879c2"
       url: "https://mirrors.tencent.com/dart-pub/"
     source: hosted
-    version: "0.13.5"
+    version: "0.13.6"
   http_parser:
     dependency: transitive
     description:
@@ -209,13 +232,13 @@ packages:
     source: hosted
     version: "0.6.0"
   tiledjsonreader:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: tiledjsonreader
-      sha256: "3ab9eff34e07e86c03ae7d1d005059fc70aaf67a3a90ddf8cadae65829f29f43"
+      sha256: "752c81fb93932fbd891369b955ab8bd90568fbd2e00cf3a1863b4a8829f82674"
       url: "https://mirrors.tencent.com/dart-pub/"
     source: hosted
-    version: "1.3.1"
+    version: "1.3.2"
   typed_data:
     dependency: transitive
     description:
